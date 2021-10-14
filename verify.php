@@ -3,6 +3,7 @@
 $your_merchant = "XXXXXXXXXX:XXXXXXXXXXX";
 
 function verify($merchant,$successful_function){
+    GLOBAL $_GET;
     $orderId = $_GET["orderId"];
     if(isset($_GET["authority"])){
         $parameters = array(
