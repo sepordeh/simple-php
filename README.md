@@ -1,5 +1,5 @@
 # simple-php
-
+simplest send and verify request to Sepordeh webservice in php
 
 :::: SEPORDEH SIMPLE PHP CODE ::::
 
